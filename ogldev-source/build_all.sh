@@ -2,6 +2,6 @@
 
 for filename in tutorial*; do
 	cd $filename
-	make
+	gmake
 	cd ..
 done
